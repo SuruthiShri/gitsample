@@ -1,0 +1,65 @@
+
+1. Create a folder Project_git
+
+2. Project_git - >  4 files , 3dir ,2 subdir , and all dir should have atleast 3 files in it
+
+3. .gitignore should be created for a file in Project_git
+
+4. Added to the Staging area
+
+5. Commited with a message
+
+6. Change 2 files in sub directories and move to the local repository
+
+7. Create a branch and add new files in the branch
+
+8. Merge the main branch wih above created branch
+
+9. Create new repository
+   
+10. connect new repo with the local rep
+11. Make the repositories sync
+   
+12. Add file in local repo and move to remote repo
+   
+13. Add file in remote repo and move to local repo
+
+14. alter a file in local and sync with the remote repo and vice versa
+
+15. sync the branch created in step 7 into the remote repo
+
+16. Try merge in the remote repo
+
+17. Get link from you friends and make a fork and clone of that repo
+Manoj Raj2:14 PM
+New folder
+git init
+git config user.name "manojrajn"
+git config user.email "manojrajsn@gmail.com"
+git remote add origin https://github.com/manojrajn/repo2.git
+git pull
+git checkout main
+git pull
+files copy 
+git add .
+git commit -m "initial Commit"
+git push -u origin main
+refresh the repo page
+
+
+touch check.txt
+git add .
+git commit -m "initial Commit"
+git push -u origin main
+git branch mybeanch
+git checkout mybeanch
+touch checkint.txt
+git add .
+git commit -m "check"
+git push -u origin mybeanch
+git merge main
+ls
+git checkout main
+ls -rlt
+git merge mybeanch
+ls -lrt
